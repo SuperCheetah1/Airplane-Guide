@@ -250,7 +250,7 @@ def main() :
         st.image('https://static.wixstatic.com/media/834ef2_e7389fd86e6b45e5a2a67d478bd8a76c~mv2.jpg/v1/fill/w_849,h_278,al_c,q_90/file.jpg', use_column_width=True)
         choiceboeing = st.selectbox("Select the Aircraft Family: ", ("","707 Family","717 Family","727 Family","737 Family","747 Family","757 Family","767 Family","777 Family","787 Family"))
         planechooser(choiceboeing)
-
+    st.camera_input()
 
 
 
